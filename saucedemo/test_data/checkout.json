@@ -1,0 +1,30 @@
+{
+    "valid": {
+        "firstName": "Rafay",
+        "lastName": "Tester",
+        "postalCode": "75500"
+    },
+    "invalidCases": [
+        {
+            "title": "missing first name",
+            "firstName": "",
+            "lastName": "Tester",
+            "postalCode": "75500",
+            "error": "First Name is required"
+        },
+        {
+            "title": "missing last name",
+            "firstName": "Rafay",
+            "lastName": "",
+            "postalCode": "75500",
+            "error": "Last Name is required"
+        },
+        {
+            "title": "missing postal code",
+            "firstName": "Rafay",
+            "lastName": "Tester",
+            "postalCode": "",
+            "error": "Postal Code is required"
+        }
+    ]
+}
